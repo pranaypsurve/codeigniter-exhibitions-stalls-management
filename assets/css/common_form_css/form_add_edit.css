@@ -1,0 +1,54 @@
+/*
+	Code Developed By 	: Pranay
+	Created On  		: 19/01/21
+	Description         : Below Code is Only For Add/Edit Form View With
+						  tables in edit view.
+*/
+.test
+    {
+      box-shadow : 3px 3px 5px 5px lightgrey;
+      width: 40%;
+      background-color: #BDB6B5;
+      border-radius: 10px;
+    }
+    .form1
+    {
+      border-radius: 12px;
+      padding: 10px;
+      width: 100%;
+    }
+    table.table-bordered{
+    border:1px solid black;
+    margin-top:20px;
+    }
+    table.table-bordered > thead > tr > th{
+      border:1px solid black;
+    }
+    table.table-bordered > tbody > tr > td{
+      border:1px solid black;
+    }
+    .add_edit_error
+    {
+      color: red;
+    }
+     @media only screen and (max-width: 992px) {
+    body {
+    /*background-color: yellow;*/
+     }
+    .test
+    {
+      width: 90%;
+    }
+    .form1
+    {
+      /*height: 800px;*/
+      border-radius: 20px;
+      padding: 10px;
+      /*margin: 10px;*/
+      width: 100%;
+    }
+    .bnbn
+    {
+      margin-top: 12px;
+    }
+    }
